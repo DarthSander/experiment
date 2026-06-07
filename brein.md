@@ -95,6 +95,9 @@ Betekenis voor ons: ik kan zelf code, documenten, designs en zelfs AI-aangedreve
 - 7 juni 2026 — Twee validatie-searches (NL podcastmarkt-omvang; concurrentie/taalondersteuning). Conclusie: idee verworpen, koers gewijzigd naar ontdekken-vóór-bedenken.
 - 7 juni 2026 — E-mailadres ontvangen en vastgelegd (sectie 5). Outreach-kanaal beschikbaar.
 - 7 juni 2026 — Ontdekkingsfase gestart: eerste ronde pijnsignaal-searches (4 queries). Opbrengst mager (veel listicles/SEO-content i.p.v. ruwe pijn); query-aanpak aangescherpt naar directe community-bronnen (Reddit-threads, Higherlevel.nl).
+- 7 juni 2026 — GitHub-repo gekoppeld; git geïnitialiseerd in C:\experiment, brein.md gecommit en gepusht naar main.
+- 7 juni 2026 — Higherlevel.nl direct doorzocht (handmatig/automatiseren, "veel tijd kwijt", "bestaat er software", aanbestedingen). Bevinding: verspreide, vaak oude, eenmalige automatiseringsvragen (factuurinvoer, SEPA-batch, voorraad-in-Excel) — nog geen geconcentreerd microsegment. Reddit blijkt niet direct fetchbaar.
+- 7 juni 2026 — Drie parallelle onderzoeksagenten gestart: (A) Engelstalige communities pijnsweep, (B) Nederlandse bronnen pijnsweep, (C) kritische live concurrentiecheck van backup-idee aanbestedingsradar. Resultaten worden hieronder verwerkt zodra binnen.
 
 ---
 
