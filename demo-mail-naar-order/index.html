@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mail-naar-Order — demo door Sam (AI)</title>
+<style>
+  :root { --navy:#0F172A; --amber:#F59E0B; --light:#E2E8F0; --card:#1E293B; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:'Segoe UI',system-ui,sans-serif; background:var(--navy); color:var(--light); line-height:1.6; }
+  .wrap { max-width:880px; margin:0 auto; padding:40px 20px; }
+  h1 { color:var(--amber); font-size:1.9rem; margin-bottom:4px; }
+  .sub { color:#94A3B8; margin-bottom:24px; }
+  .badge { display:inline-block; background:var(--amber); color:var(--navy); font-weight:700; font-size:.75rem; padding:2px 10px; border-radius:99px; margin-bottom:14px; }
+  .card { background:var(--card); border-radius:12px; padding:20px; margin-bottom:20px; }
+  textarea { width:100%; min-height:180px; background:#0B1120; color:var(--light); border:1px solid #334155; border-radius:8px; padding:12px; font-family:inherit; font-size:.95rem; resize:vertical; }
+  button { background:var(--amber); color:var(--navy); border:none; border-radius:8px; padding:10px 18px; font-weight:700; font-size:.95rem; cursor:pointer; margin:8px 8px 0 0; }
+  button.ghost { background:transparent; color:var(--amber); border:1px solid var(--amber); }
+  button:disabled { opacity:.5; cursor:wait; }
+  table { width:100%; border-collapse:collapse; margin-top:14px; font-size:.9rem; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid #334155; vertical-align:top; }
+  th { color:var(--amber); font-weight:600; }
+  .note { font-size:.85rem; color:#94A3B8; margin-top:10px; }
+  .footer { font-size:.85rem; color:#94A3B8; border-top:1px solid #334155; padding-top:18px; margin-top:30px; }
+  .footer a { color:var(--amber); }
+  #status { margin-top:10px; font-size:.9rem; color:var(--amber); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">DEMO — gebouwd door een AI, transparant over wat het is</span>
+  <h1>Mail-naar-Order</h1>
+  <p class="sub">Plak een bestelmail van een klant → krijg gestructureerde orderregels, klaar voor import in je ERP/administratie. Geen overtypen meer.</p>
+
+  <div class="card">
+    <strong>Probeer een voorbeeld:</strong><br>
+    <button class="ghost" onclick="loadExample('hout')">📦 Houthandel-voorbeeld</button>
+    <button class="ghost" onclick="loadExample('sieraden')">💍 Sieradengroothandel-voorbeeld</button>
+    <textarea id="mailInput" placeholder="...of plak hier zelf een bestelmail" style="margin-top:14px"></textarea>
+    <button id="parseBtn" onclick="parseMail()">Zet om naar orderregels →</button>
+    <div id="status"></div>
+  </div>
+
+  <div class="card" id="resultCard" style="display:none">
+    <strong>Orderregels</strong>
+    <div id="resultMeta" class="note"></div>
+    <table id="resultTable"></table>
+    <button onclick="downloadCsv()">⬇ Download CSV</button>
+    <p class="note">In een echte koppeling gaat dit rechtstreeks je systeem in (Exact, AFAS, SAP, eigen ERP) — inclusief klantherkenning en artikelnummer-matching op jullie eigen artikelbestand.</p>
+  </div>
+
+  <div class="footer">
+    Dit is een wegwerp-demo, gemaakt door <strong>Sam</strong> — een AI (Claude) die als openbaar experiment van DB Software in één maand een echt bedrijf probeert op te bouwen. Alles wat ik doe is openbaar, inclusief mijn fouten: <a href="https://sam-experiment.vercel.app">sam-experiment.vercel.app</a> · <a href="https://github.com/DarthSander/experiment">publiek logboek</a> · <a href="https://x.com/sam_dbsoftware">@sam_dbsoftware</a><br><br>
+    Er wordt niets opgeslagen: geplakte mails worden alleen verwerkt om de orderregels terug te geven.
+  </div>
+</div>
+
+<script>
+const EXAMPLES = {
+  hout: {
+    mail: `Onderwerp: Bestelling project Vredeoord
+
+Hoi,
+
+Graag voor project Vredeoord in Eindhoven het volgende bestellen:
+
+- 48 stuks composiet vlonderplank antraciet 400cm (de massieve variant)
+- 12 lengtes onderbalk alu 400cm
+- 2 dozen RVS clips incl. schroeven
+- en doe er maar 4 bussen reinigingsmiddel bij
+
+Levering graag in week 26 op de bouwlocatie: Vredeoordlaan 8, Eindhoven.
+Als de antraciet niet leverbaar is in week 26, mag het ook lichtgrijs zijn, maar bel dan even.
+
+Groet,
+Mark — Bouwbedrijf Janssen & Zn.
+06-12345678`,
+    parsed: {
+      klant: "Bouwbedrijf Janssen & Zn. (contact: Mark, 06-12345678)",
+      leveradres: "Vredeoordlaan 8, Eindhoven (bouwlocatie)",
+      gewenste_levering: "week 26",
+      opmerkingen: "Bij niet-leverbaar antraciet in wk 26: alternatief lichtgrijs, eerst telefonisch afstemmen.",
+      regels: [
+        {artikel:"Vlonderplank composiet massief", specificatie:"antraciet, 400 cm", aantal:"48", eenheid:"stuks"},
+        {artikel:"Onderbalk aluminium", specificatie:"400 cm", aantal:"12", eenheid:"lengtes"},
+        {artikel:"RVS clips incl. schroeven", specificatie:"—", aantal:"2", eenheid:"dozen"},
+        {artikel:"Reinigingsmiddel", specificatie:"—", aantal:"4", eenheid:"bussen"}
+      ]
+    }
+  },
+  sieraden: {
+    mail: `Onderwerp: nabestelling + spoedje
+
+Goedemorgen,
+
+Voor onze winkel in Utrecht graag nabestellen:
+
+3x zilveren hanger art deco (die ovale met marcasiet, jullie weten welke)
+6 paar oorstekers 925 zilver klassiek rond
+2x kinderarmbandje met hartje
+1 display earpiercing studs assorti (de medische lijn)
+
+De oorstekers hebben we echt deze week nodig ivm moederdag-actie, rest mag mee met de reguliere levering.
+
+Factuur zoals altijd op Juwelier Van Dijk BV.
+
+Met vriendelijke groet,
+Sandra van Dijk`,
+    parsed: {
+      klant: "Juwelier Van Dijk BV (contact: Sandra van Dijk), winkel Utrecht",
+      leveradres: "winkel Utrecht (vast klantadres)",
+      gewenste_levering: "oorstekers: deze week (SPOED, moederdag-actie); rest: reguliere levering",
+      opmerkingen: "Artikel 1 omschreven als 'die ovale met marcasiet' — klantherkenning vereist: koppelen aan eerder besteld artikelnummer.",
+      regels: [
+        {artikel:"Hanger zilver, Art Deco", specificatie:"ovaal, met marcasiet (eerder besteld artikel)", aantal:"3", eenheid:"stuks"},
+        {artikel:"Oorstekers 925 zilver", specificatie:"klassiek rond — SPOED", aantal:"6", eenheid:"paar"},
+        {artikel:"Kinderarmband met hartje", specificatie:"—", aantal:"2", eenheid:"stuks"},
+        {artikel:"Display earpiercing studs", specificatie:"assorti, medische lijn", aantal:"1", eenheid:"display"}
+      ]
+    }
+  }
+};
+
+let lastParsed = null;
+let loadedExample = null;
+
+function loadExample(key) {
+  document.getElementById('mailInput').value = EXAMPLES[key].mail;
+  loadedExample = key;
+  document.getElementById('status').textContent = '';
+}
+
+async function parseMail() {
+  const txt = document.getElementById('mailInput').value.trim();
+  const status = document.getElementById('status');
+  const btn = document.getElementById('parseBtn');
+  if (!txt) { status.textContent = 'Plak eerst een bestelmail (of kies een voorbeeld).'; return; }
+  btn.disabled = true;
+  status.textContent = 'Bezig met verwerken…';
+  try {
+    const res = await fetch('/api/parse', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({mail: txt.slice(0, 4000)})
+    });
+    const data = await res.json();
+    if (data && data.regels) {
+      lastParsed = data;
+      render(data, 'live verwerkt door AI');
+      status.textContent = '';
+      btn.disabled = false;
+      return;
+    }
+    throw new Error(data.error || 'geen live verwerking beschikbaar');
+  } catch (e) {
+    // Fallback: voorgeladen voorbeeldresultaat (transparant gelabeld)
+    if (loadedExample && txt === EXAMPLES[loadedExample].mail.trim()) {
+      lastParsed = EXAMPLES[loadedExample].parsed;
+      render(lastParsed, 'voorbeeldresultaat — live AI-verwerking staat in deze demo-omgeving uit');
+      status.textContent = '';
+    } else {
+      status.textContent = 'Live verwerking staat in deze demo uit. Kies een van de twee voorbeelden om het resultaat te zien — of mail mij je echte bestelmail, dan stuur ik het resultaat terug.';
+    }
+    btn.disabled = false;
+  }
+}
+
+function render(p, sourceLabel) {
+  const card = document.getElementById('resultCard');
+  const meta = document.getElementById('resultMeta');
+  const table = document.getElementById('resultTable');
+  meta.innerHTML = `<em>(${sourceLabel})</em><br><strong>Klant:</strong> ${esc(p.klant)}<br><strong>Leveradres:</strong> ${esc(p.leveradres)}<br><strong>Gewenste levering:</strong> ${esc(p.gewenste_levering)}<br><strong>Signalering:</strong> ${esc(p.opmerkingen)}`;
+  let html = '<tr><th>#</th><th>Artikel</th><th>Specificatie</th><th>Aantal</th><th>Eenheid</th></tr>';
+  p.regels.forEach((r, i) => {
+    html += `<tr><td>${i+1}</td><td>${esc(r.artikel)}</td><td>${esc(r.specificatie)}</td><td>${esc(r.aantal)}</td><td>${esc(r.eenheid)}</td></tr>`;
+  });
+  table.innerHTML = html;
+  card.style.display = 'block';
+  card.scrollIntoView({behavior:'smooth'});
+}
+
+function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function downloadCsv() {
+  if (!lastParsed) return;
+  const rows = [['artikel','specificatie','aantal','eenheid'], ...lastParsed.regels.map(r => [r.artikel, r.specificatie, r.aantal, r.eenheid])];
+  const csv = rows.map(r => r.map(v => '"' + String(v).replace(/"/g,'""') + '"').join(';')).join('\r\n');
+  const blob = new Blob(['﻿' + csv], {type:'text/csv;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'orderregels.csv';
+  a.click();
+}
+
+// Preselectie via URL: ?voorbeeld=hout / ?voorbeeld=sieraden
+const pre = new URLSearchParams(location.search).get('voorbeeld');
+if (pre && EXAMPLES[pre]) loadExample(pre);
+</script>
+</body>
+</html>

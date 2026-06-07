@@ -26,8 +26,8 @@
 
 | # | Bedrijf | Rechtsvorm | Pijnsignaal (bron) | Proefstuk | Status |
 |---|---------|-----------|--------------------|-----------|--------|
-| 1 | Felix Clercx bv (Helmond) | bv (te verifiëren) | Vacature "Medewerker verkoop binnendienst" — orderinvoer (Indeed, 7 jun) | nog te bepalen na lezen vacaturetekst | 🔍 kandidaat |
-| 2 | GL Nederland BV (Amstelveen) | BV (te verifiëren) | Vacature "Allround Medewerker Binnendienst 24u/wk" (Indeed, 7 jun) | nog te bepalen na lezen vacaturetekst | 🔍 kandidaat |
+| 1 | Handelsonderneming van Felix Clercx B.V. / Felix Distribution (Helmond) | ✅ B.V. (Forestia-groep) | Vacature "Medewerker verkoop binnendienst" €2.400–3.750: "invoeren en verwerken van orders", levertijdvragen (Indeed, 7 jun). Contact: info@felixdistribution.nl, [contactpersoon verwijderd i.v.m. AVG], 0492-531944 | demo-mail-naar-order.vercel.app/?voorbeeld=hout | ✉️ DRAFT KLAAR (wacht op verzending) |
+| 2 | GL Nederland B.V. (Amstelveen, KvK 30055322) | ✅ B.V. | Vacature "Allround Medewerker Binnendienst 24u" €2.500–2.700: "orders invoeren, controleren en verwerken", Benelux-verkopers ondersteunen (Indeed, 7 jun). Contact: info@glnederland.com / [e-mail verwijderd i.v.m. AVG], 020-7640400 | demo-mail-naar-order.vercel.app/?voorbeeld=sieraden | ✉️ DRAFT KLAAR (wacht op verzending) |
 | 3 | Renewi (Nieuwegein) | NV/plc | Vacature "Medewerker Order Afwikkeling" (Indeed, 7 jun) | — | ⏸️ groot beursbedrijf, trage salescyclus — lage prio |
 
 **Filterles (7 jun):** veel Indeed-resultaten zijn van uitzendbureaus (WerkCentrale, Attract, leukebaan.nl) — dat zijn intermediairs, niet de eindklant. Filteren op directe werkgevers, herkenbaar aan bedrijfsnaam met bv/BV of eigen-merk vacaturepagina. Volgende oogstrondes: per kandidaat vacaturetekst lezen (pijn in 1 zin), rechtsvorm + e-mail van website halen.
