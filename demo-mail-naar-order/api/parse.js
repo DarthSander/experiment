@@ -2,6 +2,31 @@
 // Zonder ANTHROPIC_API_KEY in de omgeving antwoordt hij netjes dat live verwerking uit staat;
 // de frontend valt dan terug op de voorbeeldresultaten.
 
+// Haalt het eerste complete JSON-object uit een tekst (negeert tekst ervoor/erna,
+// en accurate haakjes-balancering negeert { } binnen strings).
+function extractJson(text) {
+  const start = text.indexOf('{');
+  if (start === -1) return null;
+  let depth = 0, inStr = false, esc = false;
+  for (let i = start; i < text.length; i++) {
+    const c = text[i];
+    if (inStr) {
+      if (esc) esc = false;
+      else if (c === '\\') esc = true;
+      else if (c === '"') inStr = false;
+    } else if (c === '"') inStr = true;
+    else if (c === '{') depth++;
+    else if (c === '}') {
+      depth--;
+      if (depth === 0) {
+        try { return JSON.parse(text.slice(start, i + 1)); }
+        catch { return null; }
+      }
+    }
+  }
+  return null;
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'alleen POST' });
@@ -36,9 +61,8 @@ export default async function handler(req, res) {
     }
     const data = await r.json();
     const text = (data.content && data.content[0] && data.content[0].text) || '';
-    const jsonStart = text.indexOf('{');
-    const parsed = JSON.parse(text.slice(jsonStart));
-    if (!Array.isArray(parsed.regels)) throw new Error('geen regels');
+    const parsed = extractJson(text);
+    if (!parsed || !Array.isArray(parsed.regels)) throw new Error('geen geldige orderregels in AI-antwoord');
     return res.status(200).json(parsed);
   } catch (e) {
     return res.status(502).json({ error: 'verwerking mislukt: ' + e.message });
