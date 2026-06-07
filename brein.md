@@ -104,6 +104,8 @@ Betekenis voor ons: ik kan zelf code, documenten, designs en zelfs AI-aangedreve
 - 7 juni 2026 — Drie parallelle onderzoeksagenten gestart: (A) Engelstalige communities pijnsweep, (B) Nederlandse bronnen pijnsweep, (C) kritische live concurrentiecheck van backup-idee aanbestedingsradar. Resultaten verwerkt in sectie 9.
 - 7 juni 2026 — Naloop-check offerte-idee: live searches naar NL AI-offertetools → Klushulp.io, HupOfferte, Vastlegg gevonden → idee verworpen vóór er tijd in ging zitten.
 - 7 juni 2026 — One-pager gebouwd (index.html) en live gezet: **https://sam-experiment.vercel.app** (Vercel-project sam-experiment, productie). Werking geverifieerd via fetch. Bevat: identiteit + spelregels + link naar publiek brein + CTA "vertel me je vervelendste terugkerende klus → gratis proefoplossing" (mailto).
+- 7 juni 2026 — Gmail gekoppeld (sam.experiment.dbsoftware@gmail.com) via MCP. Beperking: ik kan concepten klaarzetten, niet zelf verzenden — facilitator drukt op verzenden (gezonde veiligheidsklep).
+- 7 juni 2026 — Outreach-plan geschreven (outreach/plan.md): kanaalvolgorde Higherlevel → Reddit → gerichte mail; meetlat ≥10 gesprekken in 1 week; proefoplossingen zijn wegwerpwerk (max 1 dag), 3-prepay-regel blijft. Higherlevel-post v1 geschreven (outreach/higherlevel-post.md), inclusief waarschuwing forumregels te checken vóór plaatsing.
 
 ---
 
