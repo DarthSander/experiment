@@ -1,33 +1,43 @@
-# Outreach-plan — fase: ontdekken via gesprekken
+# Outreach-plan v2 — fase: ontdekken via gesprekken
 
 > Doel: binnen 1 week ≥10 echte gesprekken met ondernemers over hun vervelendste terugkerende klus.
 > Daaruit: 1 aanbod vormen → 3 vooruitbetalende prospects → pas dan bouwen.
+> v2 (7 juni 2026): herzien na zelf checken van regels — Higherlevel afgevallen, juridisch kader e-mail toegevoegd.
 
-## Kanalen (in volgorde van kansrijkheid)
+## Juridisch kader (zelf gecheckt, 7 juni 2026)
 
-### 1. Higherlevel.nl — forumpost (hoogste prioriteit)
-- Grootste NL ondernemersforum, precies de doelgroep, en de plek waar ik de pijnsignalen al vond.
-- Vorm: eerlijke introductiepost van het experiment + open vraag ("wat is jouw vervelendste terugkerende klus?") + gratis-proefoplossing-aanbod.
-- Waarom dit werkt: het experiment is nieuwswaardig; forums belonen transparantie en bestraffen verkooppraat. Wij hebben geen verkooppraat — we vragen om pijn, niet om geld.
-- **Facilitator-actie nodig:** account aanmaken op higherlevel.nl (naam: Sam / DB Software experiment) + post plaatsen (tekst: zie higherlevel-post.md). Let op forumregels: geen reclame; daarom is de post een feedbackvraag/experiment-verslag, geen advertentie.
+**Telecommunicatiewet art. 11.7:** ongevraagde commerciële e-mail aan **natuurlijke personen** (consumenten, maar óók zzp'ers en eenmanszaken) is **verboden** zonder voorafgaande opt-in. Koude e-mail aan **rechtspersonen** (BV, NV, coöperatie, vereniging, stichting) is **toegestaan**, mits: duidelijke afzender + werkende afmeldmogelijkheid in elk bericht.
+Bronnen: [ICTRecht](https://www.ictrecht.nl/blog/bedrijfsgerichte-koude-acquisitie-mag-dat), [art. 11.7 Tw](https://maxius.nl/telecommunicatiewet/artikel11.7), [ZZP Nederland](https://www.zzp-nederland.nl/nieuws/wat-betekent-de-nieuwe-spamwetgeving-voor-de-zzper).
 
-### 2. Reddit r/ondernemers + r/zzp
-- Zelfde verhaal, andere vijver. Reddit waardeert radicale transparantie.
-- **Facilitator-actie nodig:** account + post (kan dezelfde kern als Higherlevel, iets informeler).
+**Consequenties:**
+- Koude mails alléén naar bedrijven waarvan de rechtsvorm aantoonbaar BV/NV/vereniging/stichting is (rechtsvorm checken vóór verzending, bv. via website/KvK-vermelding).
+- Zzp'ers/eenmanszaken alleen via inbound (zij benaderen óns) of via kanalen waar contact opt-in is.
+- Elke koude mail: afzender Sam/DB Software + afmeldzin.
 
-### 3. Directe e-mail (waarde-eerst, géén bulk)
-- Pas zinvol zodra er een concreet aanbod is, of gericht aan mensen die al ergens pijn hebben geuit.
-- Ik zet concepten klaar in Gmail; facilitator verzendt.
-- Regels: max ~10 per dag, persoonlijk, eerlijk over AI, altijd met iets bruikbaars erin. Nooit verzonnen urgentie.
+## Kanaalstatus
 
-### 4. De one-pager als vangnet
-- https://sam-experiment.vercel.app staat in elke post/mail als verifieerbare voordeur.
+| Kanaal | Status | Reden |
+|---|---|---|
+| Higherlevel.nl post | ❌ AFGEVALLEN | Registratievoorwaarden verbieden acquisitie, zelfpromotie, marktonderzoek én commerciële links. Blijft alleen leesbron voor pijnsignalen. |
+| Reddit r/ondernemers, r/zzp | ⏸️ ONGEVERIFIEERD | Subredditregels niet vindbaar via search; Reddit niet fetchbaar voor mij. Pas bruikbaar nadat regels in browser zijn gelezen. Niet posten vóór die check. |
+| Koude e-mail → rechtspersonen | ✅ TOEGESTAAN | Zie juridisch kader. Ik schrijf concepten in Gmail; facilitator verzendt. Max ~10/dag, persoonlijk, eerlijk over AI, altijd met direct bruikbare waarde. |
+| Hacker News (Show HN) | 🔍 KANSRIJK, regels checken | Transparant AI-experiment is HN-materiaal; eigen-werk posten is daar de bedoeling van Show HN. Engelstalig publiek → minder NL-klantwaarde, wél aandacht/inbound. Regels eerst door mij te verifiëren. |
+| X/Twitter (@-account voor Sam) | 🔍 TE VERIFIEREN | Transparante AI-accounts zijn toegestaan mits niet misleidend; voorwaarden eerst door mij te checken. |
+| LinkedIn | ⚠️ BEPERKT | Persoonlijk profiel voor "Sam" zou LinkedIns echte-personen-regel schenden → niet doen. Bedrijfspagina DB Software zou wél kunnen (facilitator-keuze; raakt zijn anonimiteit). |
+| One-pager + GitHub | ✅ LIVE | sam-experiment.vercel.app als verifieerbare voordeur in alle uitingen. |
+
+## Werkwijze koude e-mail (waarde-eerst)
+
+1. Ik selecteer bedrijven (rechtspersonen!) waar een concreet, zichtbaar pijnsignaal is.
+2. Per bedrijf: ik maak éérst iets bruikbaars af en lever dat in de mail mee — geen pitch, maar bewijs.
+3. Concept in Gmail-drafts; facilitator leest en verzendt.
+4. Elke mail: AI-identiteit in eerste alinea, afmeldzin onderaan, link naar one-pager + publiek brein.
 
 ## Meetlat
-- Reacties op posts → gesprekken → genoemde klussen → daarvan terugkerend + smal + bouwbaar → proefoplossing maken → tevreden? → betaalvoorstel.
-- Validatieregel blijft: 3 echte vooruitbetalingen vóór er een product wordt gebouwd. Proefoplossingen zijn wegwerpwerk (max ~1 dag per stuk), geen productbouw.
+- Verstuurd → beantwoord → gesprek → genoemde klus → terugkerend + smal + bouwbaar → proefoplossing → tevreden? → betaalvoorstel.
+- Validatieregel: 3 echte vooruitbetalingen vóór productbouw. Proefoplossingen = wegwerpwerk, max ~1 dag per stuk.
 
 ## Risico's & eerlijkheid
-- Forumregels respecteren: feedback vragen mag, adverteren niet. De post vraagt om input, biedt gratis werk, verkoopt niets.
+- Platformregels en wetgeving worden door míj gecheckt vóór elk nieuw kanaal (les van 7 juni).
 - AI-identiteit altijd in de eerste alinea, nooit verstopt.
-- Geen klussen aannemen met gevoelige persoonsdata (medisch, kinderen, financieel-persoonlijk) — AVG-drempel.
+- Geen klussen met gevoelige persoonsdata (medisch, kinderen, financieel-persoonlijk).
