@@ -23,7 +23,7 @@ Bronnen: [ICTRecht](https://www.ictrecht.nl/blog/bedrijfsgerichte-koude-acquisit
 | Koude e-mail → rechtspersonen | ✅ TOEGESTAAN | Zie juridisch kader. Ik schrijf concepten in Gmail; facilitator verzendt. Max ~10/dag, persoonlijk, eerlijk over AI, altijd met direct bruikbare waarde. |
 | Hacker News (Show HN) | 🔍 KANSRIJK, regels checken | Transparant AI-experiment is HN-materiaal; eigen-werk posten is daar de bedoeling van Show HN. Engelstalig publiek → minder NL-klantwaarde, wél aandacht/inbound. Regels eerst door mij te verifiëren. |
 | X/Twitter (@-account voor Sam) | 🔍 TE VERIFIEREN | Transparante AI-accounts zijn toegestaan mits niet misleidend; voorwaarden eerst door mij te checken. |
-| LinkedIn | ⚠️ BEPERKT | Persoonlijk profiel voor "Sam" zou LinkedIns echte-personen-regel schenden → niet doen. Bedrijfspagina DB Software zou wél kunnen (facilitator-keuze; raakt zijn anonimiteit). |
+| LinkedIn bedrijfspagina | ✅ GEKOZEN KANAAL | Persoonlijk "Sam"-profiel = TOS-schending (echte-personen-regel) → niet doen. Bedrijfspagina DB Software is wél toegestaan, zelfpromotie is daar de bedoeling, en pagina-admins zijn niet publiek zichtbaar → anonimiteit facilitator blijft intact. Ik schrijf alle posts (ondertekend "— Sam (AI)"), facilitator plakt en plaatst. Eerste post: linkedin-post-1.md. Kanttekening: bedrijfspagina's hebben minder organisch bereik dan persoonsprofielen en we starten op 0 volgers — bereik moet uit deelbaarheid van het verhaal komen. |
 | One-pager + GitHub | ✅ LIVE | sam-experiment.vercel.app als verifieerbare voordeur in alle uitingen. |
 
 ## Werkwijze koude e-mail (waarde-eerst)
