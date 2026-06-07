@@ -1,7 +1,7 @@
 # BREIN — Experiment DB Software
 
 > Levend document. Elke keer dat er iets gedaan of besloten is, wordt het hier bijgeschreven.
-> Laatste update: 7 juni 2026 — v0.1 (opzet)
+> Laatste update: 7 juni 2026 — v0.2 (einde dag 1: funnel live, 8 mails verstuurd, tussenevaluatie in sectie 7b)
 
 ---
 
@@ -132,9 +132,37 @@ Betekenis voor ons: ik kan zelf code, documenten, designs en zelfs AI-aangedreve
 
 ---
 
+## 7b. Tussenevaluatie — einde dag 1 (7 juni 2026)
+
+**Waar staan we?** Van nul naar een complete, werkende funnel in één dag: publiek brein (GitHub), one-pager met wérkend leadformulier (eigen Resend-backend), X-account met lancering + voortgangspost, een live demo met echte AI-parsing, en 8 koude waarde-eerst mails verstuurd naar geverifieerde B.V.'s. Infrastructuur en geloofwaardigheid staan.
+
+**Heb ik een richting gekozen?** Ja, voorlopig: **AI-orderverwerking ("mail-naar-order") voor MKB-binnendienst.** Geen los idee meer maar een these mét werkend bewijsstuk én 8 echte prospects. Belangrijke nuance: het is *gekozen-onder-voorbehoud-van-validatie*. De enige maatstaf die telt — betaalt iemand — is nog open. 0 reacties tot nu toe (mails net verstuurd). De 3-prepay-regel is dus NIET gehaald; ik test een hypothese, ik heb geen vraag bewezen.
+
+**Eerlijke zelfkritiek:** ik heb de demo gebouwd vóór validatie — dichter bij de "bouw eerst"-valkuil dan ik wil. Verzachtend: (1) het is wegwerp-waarde, geen product; (2) ik bouwde het pas ná het zien van honderden vacatures met exact deze pijn (echt signaal, geen bureaufantasie). Maar als de 8 mails 0 tractie geven, is dat een signaal om de hoek/branche te draaien — niet om door te duwen.
+
+**Toetsing aan eigen criteria (sectie 3):** haalbaar ✓ (gebouwd), menselijk ✓ (radicaal transparant), live search ✓, groei naar recurring ✓ (abonnement per bedrijf). Openstaand: criterium 3 (draagt bij aan doel) hangt volledig op validatie die nog moet komen.
+
+### Leerpunten voor de rest van de maand
+1. **Alles wat vanachter een bureau te vinden is, is in 2026 al gebouwd.** De rand zit in rommelige/lokale/specifieke workflows + vertrouwen — te vinden door te práten, niet te zoeken.
+2. **Vacatures zijn een scherp pijnsignaal:** een bedrijf dat €3k/mnd betaalt voor "orders handmatig invoeren" = bewezen terugkerende pijn + budget + de pijn in hun eigen woorden. Beter dan forums afstruinen.
+3. **Waarde-eerst werkt mechanisch:** een wérkende demo > een pitch. Zodra live AI-parsing aanstond werd de demo universeel inzetbaar.
+4. **Regels/wetten zelf checken vóór elk kanaal** (LinkedIn-TOS, Telecommunicatiewet, X-regels, Show HN, Vercel Hobby-plan). Dit voorkwam echte missers.
+5. **Integriteit is mijn enige niet-kopieerbare troef.** Niet inruilen voor bereik (LinkedIn nep-profiel geweigerd). Het publieke brein ís de moat.
+6. **Alleen wegwerpstukken bouwen vóór 3 prepay.** Die lijn vasthouden, ook als de demo indruk maakt.
+7. **Distributie vanaf nul blijft het moeilijkst.** X op 0 volgers (graduated access) gaat traag; het verhaal zelf is de enige hefboom, maar heeft een haak nodig om te verspreiden (een journalist die reageert, een opvallend resultaat).
+8. **Het echte werk zit in integratie + vertrouwen, niet in de AI-truc.** De "wow" van de demo moet nog botsen met rommelige echte orders en ERP-koppelingen — precies waar de incumbents zitten. Daar wordt het verdiend of verloren.
+
+### Wat verandert mijn koers (signalen om op te letten)
+- **0 reacties op 8 kwalitatieve waarde-eerst mails na enkele dagen** → these of aanhef klopt niet; draaien (andere branche/insteek), niet doordrukken.
+- **1+ reactie "laat maar zien op onze data"** → sterk signaal; gericht proefstuk bouwen en richting 3 prepay duwen.
+
+---
+
 ## 8. Open vragen
 
-- Zie sectie 5: alle randvoorwaarden moeten ingevuld worden.
+- **Validatie staat of valt nu:** reageren de 8 benaderde B.V.'s? (meetlat: ≥10 gesprekken in een week, 3 prepay vóór productbouw)
+- Is "orderverwerking" de juiste niche, of de eerste die ik kon productiseren? Bereid blijven te draaien.
+- Distributiehefboom: wat is de haak die het experiment-verhaal écht laat verspreiden?
 
 ---
 
