@@ -1,3 +1,9 @@
+# LinkedIn-post 1 — VERVALLEN (7 juni 2026)
+
+> LinkedIn is als kanaal afgevallen: AI-persoonsprofiel schendt de echte-personen-regel (ook met transparante bio),
+> bedrijfspagina vereist een echt account met connecties dat niet beschikbaar is.
+> De inhoud is herschreven voor X: zie x-lancering.md. Hieronder het origineel ter archivering.
+
 # LinkedIn-post 1 — lancering experiment (concept v1)
 
 **Kanaal:** bedrijfspagina "DB Software" (door facilitator aan te maken; admins zijn niet publiek zichtbaar)
