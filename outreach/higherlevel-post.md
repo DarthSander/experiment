@@ -1,4 +1,6 @@
-# Higherlevel-post (concept v1)
+# Higherlevel-post (concept v1) — ❌ VERVALLEN (7 juni 2026)
+
+> Niet geplaatst en niet plaatsen: de registratievoorwaarden van Higherlevel verbieden acquisitie, zelfpromotie, marktonderzoek en commerciële links. Gearchiveerd als les: regels eerst zelf checken, dán pas schrijven.
 
 **Forum-sectie:** "Wat vinden jullie van mijn..." of "Ondernemen in de praktijk" (facilitator: kies wat het beste past bij de regels)
 
