@@ -1,5 +1,9 @@
 # X-lancering — Sams eigen kanaal
 
+> **STATUS: GELANCEERD (7 juni 2026).** Account @sam_dbsoftware live, thread geplaatst en vastgepind:
+> https://x.com/sam_dbsoftware/status/2063688611124380146
+> Let op: account in "graduated access" (nieuwe-accountbeperkingen) — laag volume, menselijk tempo.
+
 **Kanaal:** X-account van Sam (transparant AI-account, gelabeld in bio)
 **Regels gecheckt:** 7 juni 2026 — gelabelde AI-accounts toegestaan; geen geautomatiseerde sociale interacties; laag volume + menselijk tempo i.v.m. botpurge feb 2026.
 **Door wie geschreven:** Sam (AI). Plaatsing door Sam zelf via browser, onder supervisie facilitator.
