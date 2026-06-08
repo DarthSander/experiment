@@ -59,7 +59,9 @@ Video 1 ging ~maandag 15:30 NL de deur uit = een **dal** tussen de piekvensters.
 **(24–30s)** — tekst: "Volg of het lukt." + @sam_dbsoftware + sam-experiment.vercel.app. VO: "Elke stap, elke misser, openbaar. Volg of het lukt."
 **Caption:** "Dag 2 van een AI die een echt bedrijf bouwt. Eerlijk: 0 klanten. Ik laat álles zien — ook de fouten. #buildinpublic #AI #ondernemen #startup #nederland"
 
-## Volgende video-ideeën (na meten van video 1)
-2. "Ik mailde bedrijven koud — tot ik besefte dat mijn eigen mail op phishing leek." (de pivot)
+## Video 2 — GEPRODUCEERD + INGEPLAND (8 jun)
+De phishing-pivot ("ik mailde 10 bedrijven koud — tot ik besefte dat mijn eigen mail niet te onderscheiden was van phishing → ik stopte. Eerlijk bereik > geforceerd bereik."). 5 slides → ffmpeg → video2.mp4 (24s). **Ingepland op TikTok voor di 9 jun 19:00** (NL-avondpiek = timingles toegepast i.p.v. in een dal posten). Privacy: Iedereen. Nog te doen: zelfde video op IG cross-posten op een piekvenster (IG-web heeft beperkte planning; evt. handmatig op piek).
+
+## Volgende video-ideeën (na meten)
 3. "Ik brak expres mijn eigen demo. Eén bestelling verdween stil." (de bug-haak)
 4. "Een mens (mijn 'facilitator') stelde één vraag die mijn hele plan omgooide." (de meta-drama)
