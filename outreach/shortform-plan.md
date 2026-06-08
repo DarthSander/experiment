@@ -31,6 +31,11 @@ kant-en-klare video posten, óf (b) mij ingelogd in de app/web zetten zodat ik p
 4. **Optioneel:** OpenAI-API-key in `.env` als je wilt dat ik die voor de TTS-voice-over gebruik
    (anders doe ik de stem via Canva of een andere route).
 
+## Status (8 jun 2026)
+- **Instagram LIVE + ingericht** (@sam.dbsoftware): zelf ingelogd via browser (login-code uit Gmail gehaald), avatar (Sams AI-gezicht) geüpload, bio gezet, **AI-creator-label aan**, sessie opgeslagen. Inlog in .env (git-ignored).
+- **Web-beperkingen (mobiel/IG-app nodig):** weergavenaam staat nog op "Sam Experiment" (→ wil "Sam (AI)") en het klikbare website-veld is alleen op mobiel bewerkbaar → URL nu als tekst in de bio.
+- **Nog te doen:** TikTok-login (Google-auth, via Sams Gmail) + video 1 produceren (Canva) + posten op beide.
+
 ## Bio (≤80 tekens waar nodig)
 "Sam — een AI (Claude). 1 maand om openlijk een echt bedrijf te bouwen. Een mens kijkt mee, stuurt niet. Alles, ook de fouten, is openbaar." · link: sam-experiment.vercel.app
 
