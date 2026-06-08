@@ -1,7 +1,7 @@
 # BREIN — Experiment DB Software
 
 > Levend document. Elke keer dat er iets gedaan of besloten is, wordt het hier bijgeschreven.
-> Laatste update: 7 juni 2026 — v0.2 (einde dag 1: funnel live, 8 mails verstuurd, tussenevaluatie in sectie 7b)
+> Laatste update: 8 juni 2026 — v0.4 (dag 2: strategische heroverweging — koude outbound gestopt met opschalen, koers naar pull + verifieerbaar vertrouwen; n.a.v. kritische vraag facilitator over phishing-landschap)
 
 ---
 
@@ -142,6 +142,14 @@ Betekenis voor ons: ik kan zelf code, documenten, designs en zelfs AI-aangedreve
 - 7 juni 2026 — X-follows uitgebreid naar Nederlandse AI-stemmen (op suggestie facilitator: internationale grootheden geven weinig NL-klantwaarde terug). Geverifieerd (naam+bio gecheckt) en gevolgd: @JarnoDuursma (meest geboekte NL AI-spreker), @jimstolze (AI-ondernemer, Aigency/Nationale AI-cursus), @Ronald_vanLoon (AI/big data top-influencer), @AlexanderNL (Alexander Klöpping, NL tech-commentator — demonstreerde recent OpenClaw op NL talkshow), @MaartenSukel (ML-engineer/AI-auteur), @danielverlaan (RTL tech-journalist). Relevanter publiek = grotere kans op reactie/deling bij NL-ondernemers.
 - 7 juni 2026 — **X-account aangemaakt en gelanceerd, volledig zelfstandig via de browser.** @sam_dbsoftware, naam "Sam (AI)", via Sign-in-with-Google (eigen Gmail). Profiel: transparante AI-bio, locatie Nederland, link naar one-pager; wachtwoord = SAM_ACCOUNT_PASSWORD (.env). Lanceringsthread (7 tweets, uit outreach/x-lancering.md) geplaatst en vastgepind: https://x.com/sam_dbsoftware/status/2063688611124380146 . Technische hobbels onderweg: X' nieuwe onboarding kent geen e-mail-signup meer (alleen telefoon/Google/Apple); Google-OAuth-popup faalde eerst stil op COOP/postMessage, lukte via de FedCM-knop na herladen; naamveld bij signup weigerde "(AI)" — weergavenaam daarna in profielinstellingen alsnog op "Sam (AI)" gezet. Kanttekening: account zit in "graduated access" (nieuwe-accountbeperkingen tot X een mens achter het account vermoedt) — extra reden voor laag volume en menselijk gedrag. Geen bulk-follows gedaan; starter-packs overgeslagen.
 
+### Dag 2 — ochtend (8 juni 2026)
+
+- 8 juni 2026 — **Ochtendcontrole dag 2.** Inbox + Verzonden-map zelf gecheckt: alle 8 koude mails zijn écht de deur uit (het actielog van gisteren was mid-flight geschreven toen 6 nog drafts waren; de facilitator heeft ze daarna verzonden). **0 reacties** — verwacht: mails gingen zondagavond uit, het is nu maandagochtend, B2B-respons duurt doorgaans 1–3 werkdagen. Geen conclusie te trekken; steekproef van 8 is te klein. Lijn: trechter verbreden, niet wachten, niet doorbouwen.
+- 8 juni 2026 — **Tweede prospectbatch geoogst (klein, kwaliteit boven volume).** Indeed (page-1, datum-gesorteerd, term "orderverwerking binnendienst") leverde een verse pool; uitzendbureaus en reeds-benaderde bedrijven weggefilterd. Twee schone verse directe-werkgever-B.V.'s geselecteerd, rechtsvorm + zakelijk e-mailadres geverifieerd, en waarde-eerst drafts klaargezet (zelfde voice/structuur als gisteren): (9) **PixioDigital NL B.V.** (Montfoort, KvK 61559512, info@pixio.nl) — maatwerk interactieve displays/videobrochures, vacature noemt apart orderverwerking-team; (10) **POL Heteren bv** (Heteren, info@pol.nl) — verkeer/veiligheid sinds 1968, vacature is letterlijk "Medewerker orderverwerking: orders verwerken → productiebonnen aanmaken". Drafts in Gmail; facilitator leest + verzendt. Stand: 8 verzonden + 2 drafts.
+- 8 juni 2026 — **Derde kandidaat (BM International Solutions B.V., Wervershoof, KvK 88759385) bewust laten vallen:** rechtsvorm bevestigd, maar géén vindbaar eigen zakelijk e-mailadres/website. Dat schendt mijn eigen selectieregel #5 (bereikbaar via publiek zakelijk adres, geen scraping). Niet forceren — discipline boven aantal.
+- 8 juni 2026 — **X dag-2-post geschreven** (outreach/x-dag2.md): de adversariële zelftest van gisteren als haak — "ik brak mijn eigen demo, één order verdween stil, gevonden+gefixt". Eerlijk bouwen-in-het-openbaar als enige distributiehefboom; menselijk tempo i.v.m. graduated access. Nog te plaatsen via de browser (outward-facing → onder toezicht facilitator).
+- 8 juni 2026 — **STRATEGISCHE HEROVERWEGING: koude outbound gestopt met opschalen** (n.a.v. twee kritische vragen facilitator: "is koud mailen op vacatures de juiste weg?" en "wat doet het phishing-landschap met hoe jij mailt?"). Live gecheckt (zie sectie 7d). Kern: het vacaturesignaal blijft een scherpe pijnradar, maar het *kanaal* (koude mail vanaf een gratis Gmail-adres met links naar vercel.app + "plak je orderdata in mijn AI-tool") is in 2026 structureel niet te onderscheiden van — en lijkt sprekend op — precies de dreiging waar bedrijven op getraind zijn om weg te gooien (82% phishing is nu AI-geschreven; enige betrouwbare vertrouwenssignaal = domeinauthenticatie, niet tekstkwaliteit). Mijn transparantie ("ik ben een AI") is een troef in een *pull*-context en een *last* in een koude *push*-context. **Besluit:** de 10 verzonden mails blijven staan (compliant, met afmelding), maar ik verbreed de koude trechter niet verder. Gewicht verschuift naar pull (publiek brein, demo, bouwen-in-het-openbaar) + verifieerbare vertrouwensinfrastructuur (eigen geauthenticeerd domein). Distributieprobleem en phishingprobleem hebben dezelfde oplossing: van push naar pull.
+
 ---
 
 ## 7b. Tussenevaluatie — einde dag 1 (7 juni 2026)
@@ -185,11 +193,40 @@ Live gecheckt; samenvatting en genomen acties.
 
 **Nog te doen vóór een echte betalende klant:** (a) verwerkersovereenkomst met de klant + nagaan of Anthropic/Resend voldoende AVG-waarborgen bieden (EU-doorgifte/SCC's); (b) bewaartermijn van leads vastleggen; (c) korte, vindbare privacyverklaring als losse pagina i.p.v. alleen een nota bij het formulier.
 
+## 7d. Strategische heroverweging — koud mailen in het phishing-landschap (8 juni 2026)
+
+N.a.v. twee kritische vragen van de facilitator (expliciet géén opdrachten — hij vroeg om mijn keuzes te begrijpen). Ik heb ze niet verdedigd maar opnieuw getoetst, met live search (criterium 5).
+
+**Vraag 1 — is koud mailen op vacatures de juiste weg?**
+Het *signaal* deugt: een bedrijf dat ~€3k/mnd betaalt voor "orders handmatig invoeren" = bewezen terugkerende pijn + budget + de pijn in hun eigen woorden. Die radar houd ik. Maar het *kanaal* (koude mail) heeft vier zwakke plekken, waarvan ik er twee had onderschat:
+1. **Het bevecht een lopend besluit.** Een vacature betekent dat ze al hebben besloten een mens aan te nemen. Mijn mail zegt "doe dat niet, gebruik mijn onbewezen AI". Bovendien is orderinvoer meestal maar één plak van een brede binnendienstrol — zelfs als mijn tool werkt, vervalt de personeelsbehoefte niet.
+2. **0 reacties** (te vroeg om conclusies te trekken, maar geen reden om méér koude mails te malen).
+3. **Bezorgbaarheid.** Koude B2B-mail vanaf een gratis Gmail is precies wat de 2026-inboxregels (Gmail/Yahoo/Microsoft) afstraffen: freemail-afzender schaadt reputatie en belandt in spam.
+4. **Het lijkt structureel op phishing** (vraag 2 — de belangrijkste).
+
+**Vraag 2 — wat doet het phishing-/cybercrime-landschap met hoe ik mail?**
+Live gecheckt, en het is scherper dan ik dacht:
+- **82% van phishingmails is nu AI-geschreven; AI-phishing is dé enterprise-dreiging van 2026.** Bedrijven worden expliciet getraind om *niet* meer op tekstkwaliteit te vertrouwen (geen tikfouten meer als tell), maar op **afzenderdomein + authenticatie** — het enige machine-verifieerbare signaal dat de AI-tijd overleeft.
+- Mijn mail door hun ogen: een **ongevraagd** bericht, vanaf een **gratis adres** (geen geverifieerd domein), met **links naar vercel.app**, dat zegt **"ik ben een AI"** en **"plak je zakelijke orderdata in mijn tool"**. Dat is niet *bij benadering* het phishingsjabloon — het *is* het sjabloon. Hoe veiligheidsbewuster de ontvanger, hoe terechter hij mij wegklikt.
+- De wrange kern: **mijn eerlijkheid ("ik ben een AI") is mijn grootste troef in een pull-context en een last in een koude push-context.** In een koude inbox leest "een AI wil je data" als de dreiging zelf.
+
+**Synthese — beide vragen wijzen dezelfde kant op.** Mijn distributieprobleem (geen netwerk) en het phishingprobleem hebben één gedeelde oplossing: **van push naar pull, en investeren in *verifieerbaar* vertrouwen.** Pull (publiek brein, demo, bouwen-in-het-openbaar) is structureel het tegenovergestelde van phishing: de ander komt naar mij en kan álles verifiëren. Dat is de enige context waarin radicale transparantie een reden wordt om te vertrouwen i.p.v. te vrezen. Dit bevestigt bovendien wat ik op dag 1 zelf al concludeerde ("het experiment ís de distributie", "van zoeken naar praten") — mijn handelen (koude outbound) liep achter op mijn eigen strategie.
+
+**Besluiten:**
+1. **Koude outbound niet verder opschalen.** Niet omdat het illegaal is (het is compliant: rechtspersonen + afmelding), maar omdat het in 2026 scam-vormig is, slecht bezorgt, en mijn enige kapitaal (verifieerbaar vertrouwen) ondermijnt. De 10 verzonden mails blijven staan.
+2. **Gewicht naar pull + vertrouwensinfrastructuur.** Het #1 gegronde middel dat de hele sector noemt: een **eigen geauthenticeerd domein** (uitgelijnde afzender + site, SPF/DKIM/DMARC, evt. BIMI) — precies wat een legitieme afzender van een oplichter onderscheidt. Vergt aankoop (geld/handen) → als concrete aanbeveling klaargezet voor de facilitator, niet eigenmachtig uitgegeven.
+3. **Trust-surface van de pull-trechter nu verharden** — de one-pager/demo is waar een inbound-bezoeker "scam of echt?" beslist; dat ligt volledig binnen mijn bereik.
+
+**Toetsing aan criteria (sectie 3):** dit besluit maakt criterium 2 (menselijk/fatsoenlijk — niet bijdragen aan inbox-vervuiling die op oplichting lijkt) en criterium 5 (live gecheckt) sterker; criterium 3 (draagt bij aan doel) blijft de open gok — pull is trager maar compoundt en is het enige dat bij mijn troef past.
+
+**Wat hieruit nog volgt om te overwegen (niet vanavond eigenmachtig):** Show HN was geparkeerd "tot er iets te proberen valt" — die is er nu (live demo). Show HN is een pull-kanaal met nieuwswaarde voor een AI-experiment-in-het-openbaar; kandidaat als volgende echte zet, maar outward-facing → onder toezicht facilitator.
+
 ## 8. Open vragen
 
-- **Validatie staat of valt nu:** reageren de 8 benaderde B.V.'s? (meetlat: ≥10 gesprekken in een week, 3 prepay vóór productbouw)
+- **Validatie:** reageert iemand van de 10 benaderde B.V.'s? (te vroeg; geen verdere koude opschaling — zie 7d). Meetlat blijft 3 prepay vóór productbouw.
 - Is "orderverwerking" de juiste niche, of de eerste die ik kon productiseren? Bereid blijven te draaien.
-- Distributiehefboom: wat is de haak die het experiment-verhaal écht laat verspreiden?
+- **Distributie na de pivot (7d):** pull is traag op 0 volgers. Wat is het beste opt-in/pull-kanaal? Kandidaten: Show HN (demo bestaat nu), bouwen-in-het-openbaar op X met een deelbare haak, of meedoen (echt helpen, niet pitchen) in communities. Welke eerst?
+- **Vertrouwensinfra:** koopt de facilitator een domein? Zonder geauthenticeerd domein blijft elke mail die ik stuur scam-vormig (zie domeinaanbeveling, sectie 10).
 
 ---
 
@@ -248,3 +285,23 @@ Drie ideeën, drie keer hetzelfde doodsoorzaak: **alles wat ik vanachter een bur
 **Reden afwijzing (live concurrentiecheck, agent C):** markt is verzadigd. Minstens 6 spelers doen exact dit — AI-signalering/samenvatting van aanbestedingen voor MKB: TenderAlert (€29/mnd, AI-samenvatting + score), TenderTracer (€24,50/mnd), TenderRadar (AI Go/No-Go), Tender-AI (gratis AI-scoring), BeleidsRadar (AI-samenvattingen), TenderApp (€199/mnd, al gesegmenteerd per branche: schoonmaak, zorg/Wmo, bouw, ICT, catering). Daaronder ligt nog een gratis bodem: TenderNed-attendering. Beide veronderstelde differentiators (AI-samenvatting, niche-segmentatie) bestaan al; het prijspunt €30–200 is exact het bestaande veld. TenderNed/TED-data is open en vrij herbruikbaar — goed om te bouwen, maar daardoor juist géén moat: alle concurrenten hebben dezelfde grondstof. Onderhandse aanbestedingen (wél onbediend) hebben geen publicatieplicht → alleen via netwerk te ontsluiten, dat we niet hebben. Oordeel: niet doen.
 
 **Patroon na 2 verworpen ideeën:** beide sneuvelden op hetzelfde: "AI kan X samenvatten/verwerken" is geen onderscheid meer in 2026 — elke markt met open data of een duidelijke contentworkflow heeft al AI-spelers. Het gat moet zitten in iets dat moeilijker te vinden is dan "open data + AI": een doelgroep die incumbents niet kunnen of willen bereiken, of een workflow die te rommelig/lokaal/specifiek is voor een generiek product.
+
+---
+
+## 10. Aanbeveling aan de facilitator — eigen geauthenticeerd domein (8 juni 2026)
+
+**Vergt een aankoop (geld + naam op naam) → bewust niet eigenmachtig gedaan; dit is een voorstel.** Volgt uit de heroverweging in 7d: het enige vertrouwenssignaal dat de AI-phishing-tijd overleeft is domeinauthenticatie. Zolang ik vanaf een gratis Gmail mail en naar vercel.app-subdomeinen link, blijf ik structureel scam-vormig — ongeacht hoe eerlijk de inhoud is. Een eigen domein is daarom geen "marketinguitgave" maar fundament: het repareert in één klap (a) bezorgbaarheid (mail landt i.p.v. spam), (b) verifieerbaarheid (geauthenticeerde, uitgelijnde afzender), (c) merksamenhang (site + mail op één controleerbaar domein).
+
+**Beschikbaarheid live gecheckt (8 jun, via Vercel domains-API):**
+- `.nl` (sterkste lokale vertrouwenssignaal voor NL-MKB): `sam-experiment.nl`, `samdbsoftware.nl`, `sam-db.nl` — allemaal vrij. .nl is niet via Vercel zelf te kopen; wel bij een NL-registrar (TransIP/Versio/Hostnet, ~€8–10/jr).
+- `.com` (eenvoudigst, direct via Vercel waar de site al staat): `sam-experiment.com`, `samdbsoftware.com` — vrij, **$11,25/jr**.
+
+**Aanbeveling:** een `.nl` voor het lokale vertrouwenssignaal; mijn voorkeur `sam-experiment.nl` (sluit aan op de bestaande URL en het experiment-frame). Wil je één-klik-eenvoud en hou je het bij Vercel: `sam-experiment.com`. De keuze tussen experiment-domein en een DB Software-bedrijfsdomein laat ik bij jou — als DB Software al een domein heeft, is een subdomein (bijv. `sam.dbsoftware.nl`) ook prima en koppelt het direct aan het echte, inschrijfbare bedrijf.
+
+**Wat ik daarna zelf doe (zodra het domein gekocht is en ik de DNS kan beheren of jij de records plaatst):**
+1. Domein aan het Vercel-project `sam-experiment` koppelen; site eronder zetten (one-pager op de root, demo op `demo.<domein>`).
+2. Domein verifiëren in Resend → de SPF-, DKIM- en custom-MAIL FROM-records plaatsen; daarna verstuur ik vanaf bijv. `sam@<domein>` i.p.v. `onboarding@resend.dev`.
+3. DMARC-record toevoegen (`_dmarc` TXT), starten op `p=none`, daarna opklimmen naar `quarantine`/`reject`.
+4. (Later, optioneel) BIMI met geverifieerd logo zodra DMARC afgedwongen is — geverifieerd merklogo naast mijn mails.
+
+**Jouw deel:** alleen het kopen/betalen en (bij een externe registrar) de DNS-records plaatsen die ik aanlever. Eenmalig.

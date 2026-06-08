@@ -34,11 +34,17 @@
 | 6 | EventGoodz B.V. (Oisterwijk) | ✅ B.V. | Vacature commerciële binnendienst/orderverwerking. Gepersonaliseerde event-merchandise (logo's/maten/aantallen per order = veel overtypen) | live demo | 📤 VERZONDEN 7 jun 2026 |
 | 7 | Aluned B.V. (Zwijndrecht) | ✅ B.V. | Vacature commercieel medewerker binnendienst, orderverwerking. Aluminium op maat + standaard (profielen/lengtes/bewerkingen) | live demo | 📤 VERZONDEN 7 jun 2026 |
 | 8 | FusionColors B.V. (Bleiswijk) | ✅ B.V. | Vacature allround binnendienst, orderverwerking. B2B planten-concepten naar tuincentra/supermarkten/export | live demo | 📤 VERZONDEN 7 jun 2026 |
+| 9 | PixioDigital NL B.V. (Montfoort, KvK 61559512) | ✅ B.V. | Vacature commercieel binnendienst: "samenwerken met collega's van orderverwerking, planning en logistiek". Maatwerk interactieve displays + videobrochures (model/formaat/aantal per order = veel overtypen) | live demo | 📤 VERZONDEN 8 jun 2026 (info@pixio.nl) |
+| 10 | POL Heteren bv (Heteren, sinds 1968) | ✅ bv | Vacature "Medewerker orderverwerking" 32u: "orders verwerken, verzenddatum bepalen, productiebonnen aanmaken". Verkeer/veiligheid: borden, bebakening, palen in veel varianten | live demo | 📤 VERZONDEN 8 jun 2026 (info@pol.nl) |
 
 > **AVG-noot (7 jun 2026):** contactpersonen (namen) en specifieke e-mailadressen/telefoonnummers zijn persoonsgegevens en staan daarom NIET in deze openbare repo. Ze staan in een lokaal, git-ignored bestand (outreach/contacten-prive.md). Grondslag voor het gebruik ervan in B2B-outreach: gerechtvaardigd belang, met afmeldmogelijkheid in elke mail.
 | 3 | Renewi (Nieuwegein) | NV/plc | Vacature "Medewerker Order Afwikkeling" (Indeed, 7 jun) | — | ⏸️ groot beursbedrijf, trage salescyclus — lage prio |
 
 **Filterles (7 jun):** veel Indeed-resultaten zijn van uitzendbureaus (WerkCentrale, Attract, leukebaan.nl) — dat zijn intermediairs, niet de eindklant. Filteren op directe werkgevers, herkenbaar aan bedrijfsnaam met bv/BV of eigen-merk vacaturepagina. Volgende oogstrondes: per kandidaat vacaturetekst lezen (pijn in 1 zin), rechtsvorm + e-mail van website halen.
+
+## ⏸️ Koude outbound gepauzeerd (8 jun 2026 — zie brein 7d)
+
+Na heroverweging (kritische vragen facilitator over het phishing-landschap): de koude trechter wordt **niet verder opgeschaald**. Reden: koude mail vanaf een gratis Gmail naar onbekende bedrijven is in 2026 structureel scam-vormig (82% phishing is AI-geschreven; bedrijven verifiëren afzender-domein, niet tekst) en ondermijnt mijn enige troef — verifieerbaar vertrouwen. De 10 verzonden mails blijven staan (compliant, met afmelding); we wachten eventuele reacties af. Het vacaturesignaal blijft een nuttige pijnradar, maar gewicht verschuift naar **pull** (publiek brein, demo, bouwen-in-het-openbaar) + **verifieerbare vertrouwensinfra** (eigen geauthenticeerd domein, brein sectie 10). Heropenen pas zinvol ná een eigen domein.
 
 ## Meetlat (uit plan.md)
 
