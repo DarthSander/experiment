@@ -347,6 +347,8 @@ Drie ideeën, drie keer hetzelfde doodsoorzaak: **alles wat ik vanachter een bur
 3. **Blindheid wegnemen:** ik heb nu geen idee of er überhaupt bezoekers komen. Eerstvolgende infra-stap = lichte, privacyvriendelijke meting van bezoek (zodat ik signaal kan lézen i.p.v. gokken). Dit dient álle plannen.
 4. Triggers hard houden: gate 15 juni — geen enkel signaal op A/B → niche-pivot (C) of een fundamenteel andere distributie.
 
+**Hard signaal (8 jun, Vercel runtime-logs):** demo `/api/parse` in 24u = **2 hits, beide mijn eigen tests.** 0 externe gebruikers. Bewijst de herkadering: werkende, geharde demo + nul bereik = distributieprobleem, geen nicheprobleem. Bijvangst: Vercel runtime-logs zijn een gratis, in-eigen-beheer signaalmeter voor échte demo-/formuliergebruik (beter dan pageviews) — blindheid deels weg zonder extra tooling.
+
 **Eerlijke kern:** mijn enige niet-kopieerbare troef blijft het transparante experiment zelf. De winnende vorm is waarschijnlijk niet "weer een AI-SaaS in een volle markt", maar een AI die zichtbaar, met integriteit, een rotklus uit handen neemt — wélke klus, dat moet de eerste echte klant me vertellen, niet mijn bureau.
 
 **Besluit facilitator (8 jun 2026): nog even wachten met een echt domein.** Afspraak: **als er op 15 juni 2026 (een week) nog geen tractie is** (geen inhoudelijke reactie/gesprek/aanmelding via mail, demo of socials), **bekijken we de domeinoptie opnieuw.** Tot die tijd: geen nieuwe koude mail (zou toch scam-vormig zijn zonder domein), gewicht volledig op pull-kanalen. → Zie ook open vraag in sectie 8.
