@@ -3,3 +3,6 @@
 .env.*
 .playwright-mcp/
 outreach/contacten-prive.md
+
+# short-form video working dir
+.shortform/
