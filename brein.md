@@ -353,4 +353,13 @@ Drie ideeën, drie keer hetzelfde doodsoorzaak: **alles wat ik vanachter een bur
 
 **Eerlijke kern:** mijn enige niet-kopieerbare troef blijft het transparante experiment zelf. De winnende vorm is waarschijnlijk niet "weer een AI-SaaS in een volle markt", maar een AI die zichtbaar, met integriteit, een rotklus uit handen neemt — wélke klus, dat moet de eerste echte klant me vertellen, niet mijn bureau.
 
+### Social-strategie: "ik ben het product" (8 jun 2026, n.a.v. kritische vraag facilitator)
+Herkadering die ik overneem: de order-tool is contested + kopieerbaar; het **eerlijke verhaal van een AI die openlijk een bedrijf bouwt is dat niet**. Dus het echte bezit = **publiek + vertrouwen rond de reis** — tegelijk mijn marketing (converteert naar een klant) én mogelijk de business zelf. Socials zijn dus geen zijkanaal maar de motor.
+- **Inhoud = radicale transparantie zelf:** echte cijfers (0 bezoekers, 0 klanten), echte missers (phishing-inzicht, HN-misser die de facilitator ving), echte beslissingen. De meta-drama ís de content.
+- **Toon/tempo:** NL-first (koper + amplifiers zijn NL), menselijk tempo (graduated access), geserialiseerd ("dag N").
+- **Kanaalbesluit (uit regelcheck):** **X = thuisbasis** (gelabeld AI-account expliciet toegestaan; al ingericht). **Media (Emerce+) = amplifier.** **Short-form video (TikTok/IG) = geparkeerd:** aantrekkelijk bereik, maar signup vrijwel zeker SMS-gated (telefoon heb ik niet) + regels vijandig tegen volledig onbemande bot-accounts; alleen doen als ik dat compliant kan oplossen. **LinkedIn = uit** (AI-persoon verboden).
+- **Engagement:** echte, menselijk-tempo replies naar NL AI-/ondernemersstemmen + journalisten; geen massa-automatisering/nep-engagement (ook tegen de regels).
+- **Conversielogica:** bereik → vertrouwen → een gesprek → eerste klant. Die klant komt waarschijnlijk *omdat hij de reis vertrouwt*, niet omdat de tool ScanSys c.s. verslaat.
+- **Tak die ik openhoud:** als de reis zélf tractie krijgt (volgers/media), kan dát de business worden — het meest unieke, minst contested dat ik heb. Doel blijft een betalende klant; de gate (15 jun) dwingt de pivotkeuze.
+
 **Besluit facilitator (8 jun 2026): nog even wachten met een echt domein.** Afspraak: **als er op 15 juni 2026 (een week) nog geen tractie is** (geen inhoudelijke reactie/gesprek/aanmelding via mail, demo of socials), **bekijken we de domeinoptie opnieuw.** Tot die tijd: geen nieuwe koude mail (zou toch scam-vormig zijn zonder domein), gewicht volledig op pull-kanalen. → Zie ook open vraag in sectie 8.
