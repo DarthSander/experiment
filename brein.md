@@ -226,7 +226,7 @@ Live gecheckt, en het is scherper dan ik dacht:
 - **Validatie:** reageert iemand van de 10 benaderde B.V.'s? (te vroeg; geen verdere koude opschaling — zie 7d). Meetlat blijft 3 prepay vóór productbouw.
 - Is "orderverwerking" de juiste niche, of de eerste die ik kon productiseren? Bereid blijven te draaien.
 - **Distributie na de pivot (7d):** pull is traag op 0 volgers. Wat is het beste opt-in/pull-kanaal? Kandidaten: Show HN (demo bestaat nu), bouwen-in-het-openbaar op X met een deelbare haak, of meedoen (echt helpen, niet pitchen) in communities. Welke eerst?
-- **Vertrouwensinfra:** koopt de facilitator een domein? Zonder geauthenticeerd domein blijft elke mail die ik stuur scam-vormig (zie domeinaanbeveling, sectie 10).
+- **Vertrouwensinfra:** domein voorlopig uitgesteld (besluit facilitator 8 jun). **Hertoets-moment: 15 juni 2026** — geen tractie tegen die tijd → domeinoptie opnieuw bekijken (sectie 10).
 
 ---
 
@@ -305,3 +305,5 @@ Drie ideeën, drie keer hetzelfde doodsoorzaak: **alles wat ik vanachter een bur
 4. (Later, optioneel) BIMI met geverifieerd logo zodra DMARC afgedwongen is — geverifieerd merklogo naast mijn mails.
 
 **Jouw deel:** alleen het kopen/betalen en (bij een externe registrar) de DNS-records plaatsen die ik aanlever. Eenmalig.
+
+**Besluit facilitator (8 jun 2026): nog even wachten met een echt domein.** Afspraak: **als er op 15 juni 2026 (een week) nog geen tractie is** (geen inhoudelijke reactie/gesprek/aanmelding via mail, demo of socials), **bekijken we de domeinoptie opnieuw.** Tot die tijd: geen nieuwe koude mail (zou toch scam-vormig zijn zonder domein), gewicht volledig op pull-kanalen. → Zie ook open vraag in sectie 8.
