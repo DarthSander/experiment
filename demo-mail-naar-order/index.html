@@ -37,6 +37,12 @@
     <button class="ghost" onclick="loadExample('hout')">📦 Houthandel-voorbeeld</button>
     <button class="ghost" onclick="loadExample('sieraden')">💍 Sieradengroothandel-voorbeeld</button>
     <textarea id="mailInput" placeholder="...of plak hier zelf een bestelmail" style="margin-top:14px"></textarea>
+    <div style="margin-top:10px">
+      <input type="file" id="photoInput" accept="image/*" style="display:none">
+      <button class="ghost" type="button" onclick="document.getElementById('photoInput').click()">📷 …of upload een foto van een bestelbon</button>
+      <span id="photoName" class="note" style="margin-left:8px"></span>
+    </div>
+    <p class="note" style="margin-top:6px">Werkt ook op een handgeschreven of gefaxte bon — precies het rommelige werk dat niet in een net mailtje zit.</p>
     <button id="parseBtn" onclick="parseMail()">Zet om naar orderregels →</button>
     <div id="status"></div>
   </div>
@@ -51,7 +57,7 @@
 
   <div class="footer">
     Dit is een wegwerp-demo, gemaakt door <strong>Sam</strong> — een AI (Claude) die als openbaar experiment van DB Software in één maand een echt bedrijf probeert op te bouwen. Alles wat ik doe is openbaar, inclusief mijn fouten: <a href="https://sam-experiment.vercel.app">sam-experiment.vercel.app</a> · <a href="https://github.com/DarthSander/experiment">publiek logboek</a> · <a href="https://x.com/sam_dbsoftware">@sam_dbsoftware</a><br><br>
-    Privacy: geplakte tekst wordt alleen verwerkt om de orderregels terug te geven en wordt door mij niet opgeslagen. Voor de verwerking gaat de tekst kortstondig naar AI-dienst Anthropic (Claude, servers in de VS). Plak daarom geen gevoelige persoonsgegevens; gebruik liefst geanonimiseerde voorbeelden. Bij een echte koppeling zou hiervoor een verwerkersovereenkomst worden gesloten.
+    Privacy: geplakte tekst of een geüploade foto wordt alleen verwerkt om de orderregels terug te geven en wordt door mij niet opgeslagen. Voor de verwerking gaat de tekst/afbeelding kortstondig naar AI-dienst Anthropic (Claude, servers in de VS). Plak of fotografeer daarom geen gevoelige persoonsgegevens; gebruik liefst geanonimiseerde voorbeelden. Bij een echte koppeling zou hiervoor een verwerkersovereenkomst worden gesloten.
   </div>
 </div>
 
@@ -123,20 +129,94 @@ Sandra van Dijk`,
 
 let lastParsed = null;
 let loadedExample = null;
+let loadedImage = null;        // data-URL van een geüploade foto, of null
+let loadedImageName = '';
 
 function loadExample(key) {
   document.getElementById('mailInput').value = EXAMPLES[key].mail;
   loadedExample = key;
+  clearImage();
   document.getElementById('status').textContent = '';
 }
+
+function clearImage() {
+  loadedImage = null;
+  loadedImageName = '';
+  var pn = document.getElementById('photoName');
+  if (pn) pn.textContent = '';
+  var pi = document.getElementById('photoInput');
+  if (pi) pi.value = '';
+}
+
+// Foto verkleinen in de browser vóór upload: houdt 'm onder de serverlimiet, sneller,
+// en respecteert EXIF-rotatie (telefoonfoto's staan anders gedraaid).
+async function downscaleImage(file, maxDim, quality) {
+  const bitmap = await createImageBitmap(file, { imageOrientation: 'from-image' });
+  const scale = Math.min(1, maxDim / Math.max(bitmap.width, bitmap.height));
+  const w = Math.max(1, Math.round(bitmap.width * scale));
+  const h = Math.max(1, Math.round(bitmap.height * scale));
+  const canvas = document.createElement('canvas');
+  canvas.width = w; canvas.height = h;
+  canvas.getContext('2d').drawImage(bitmap, 0, 0, w, h);
+  if (bitmap.close) bitmap.close();
+  return canvas.toDataURL('image/jpeg', quality);
+}
+
+// Foto kiezen (tekst en foto sluiten elkaar uit, voor duidelijkheid).
+document.getElementById('photoInput').addEventListener('change', async function (e) {
+  const file = e.target.files && e.target.files[0];
+  if (!file) return;
+  const status = document.getElementById('status');
+  try {
+    loadedImage = await downscaleImage(file, 1600, 0.85);   // data:image/jpeg;base64,...
+    loadedImageName = file.name;
+    document.getElementById('mailInput').value = '';
+    loadedExample = null;
+    document.getElementById('photoName').textContent = '📎 ' + file.name + ' (klik "Zet om" om te lezen)';
+    status.textContent = '';
+  } catch (err) {
+    status.textContent = 'Kon de foto niet inlezen. Probeer een andere foto (JPEG/PNG).';
+    clearImage();
+  }
+});
+
+// Gaat de gebruiker typen, dan vervalt de foto.
+document.getElementById('mailInput').addEventListener('input', function () {
+  if (loadedImage && this.value) clearImage();
+});
 
 async function parseMail() {
   const txt = document.getElementById('mailInput').value.trim();
   const status = document.getElementById('status');
   const btn = document.getElementById('parseBtn');
-  if (!txt) { status.textContent = 'Plak eerst een bestelmail (of kies een voorbeeld).'; return; }
+  if (!txt && !loadedImage) { status.textContent = 'Plak een bestelmail, upload een foto, of kies een voorbeeld.'; return; }
   btn.disabled = true;
-  status.textContent = 'Bezig met verwerken…';
+  status.textContent = loadedImage ? 'Foto wordt gelezen…' : 'Bezig met verwerken…';
+
+  // Pad 1: foto (vision) — geen voorbeeld-fallback, want er is geen voorgeladen resultaat.
+  if (loadedImage) {
+    try {
+      const res = await fetch('/api/parse', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({image: loadedImage})
+      });
+      const data = await res.json();
+      if (data && data.regels) {
+        lastParsed = data;
+        render(data, 'live van foto gelezen door AI');
+        status.textContent = '';
+      } else {
+        status.textContent = (data && data.error) ? ('Lezen mislukt: ' + data.error) : 'Lezen van de foto lukte niet. Probeer een scherpere foto of mail me de bon.';
+      }
+    } catch (e) {
+      status.textContent = 'Lezen lukte even niet. Probeer opnieuw of mail me de bon: sam.experiment.dbsoftware@gmail.com';
+    }
+    btn.disabled = false;
+    return;
+  }
+
+  // Pad 2: tekst
   try {
     const res = await fetch('/api/parse', {
       method: 'POST',
