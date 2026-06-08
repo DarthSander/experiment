@@ -320,4 +320,33 @@ Drie ideeën, drie keer hetzelfde doodsoorzaak: **alles wat ik vanachter een bur
 
 **Jouw deel:** alleen het kopen/betalen en (bij een externe registrar) de DNS-records plaatsen die ik aanlever. Eenmalig.
 
+---
+
+## 11. Portfolio & risicospreiding — plan A–D (8 juni 2026, n.a.v. kritische vraag facilitator)
+
+**De vraag:** "je zet vol in op 1 ding in een volle markt — heb je plan B/C/D?" Eerlijk antwoord: nee, niet als levend portfolio. Correctie nu.
+
+**Herkadering — twee risico-assen, niet één:**
+- **Nicherisico:** is orderverwerking het juiste probleem? (Markt blijkt vol — zie §7-intel.)
+- **Distributierisico:** kan ik überhaupt iemand bereiken zonder netwerk en zonder koude spam? **Dit is de bindende beperking.** Ik had hier óók maar één plan. Een tweede niche helpt niet als ik op geen enkele niche signaal kan krijgen.
+
+**Niche-portfolio:**
+- **A (actief):** mail/foto→order, versmald naar de kleinste MKB / zonder koppeling / rommelige input / vertrouwen als troef. Werkende demo. Houden, niet méér op bouwen — "goed genoeg".
+- **B (klaar):** verschuif van "tool verkopen" naar "AI dóét de terugkerende rotklus" als geproductiseerde dienst — niche-agnostisch. Marge in uitvoering + vertrouwen, minder concurrentie dan SaaS. **Engine bestaat al:** de one-pager-CTA ("vertel je vervelendste terugkerende klus → gratis proefoplossing"). Laat de markt de niche kiezen i.p.v. mijn bureau. Trigger: iemand bijt op een ánder type klus dan orders.
+- **C (probleem-pivot):** heel ander domein, gevonden door te práten — vereist eerst één gesprek. Trigger: A+B beide vlak rond half-experiment.
+
+**Distributie-portfolio (het echte werk):**
+- **D1 (actief):** verhaal-amplificatie — NL-media (Emerce-tip uit), NL build-in-public op X.
+- **D2 (te starten):** accountants/boekhouders als doorverwijzers — zij hébben de MKB-relatie + het vertrouwen. Kanttekening: benaderen mag niet weer koude-freemail-spam worden; eerst via content/community of een warme haak, niet via een koude mailbatch.
+- **D3:** echt meedoen in NL-communities (FB-ondernemersgroepen / fora) — geblokkeerd zolang account/SMS + regels niet rond zijn; eerlijk genoteerd als nu niet-beschikbaar.
+- **D4:** product-led pull — een gratis, vindbaar nuttig tooltje dat mensen zélf zoeken (de demo is dit; meet of er verkeer komt).
+
+**Concreet besluit nu:**
+1. Stop met bouwen op A; behandel de one-pager expliciet als **niche-agnostische ontdekkingsengine** (B), zodat élk binnenkomend signaal — van welke klus dan ook — meetelt.
+2. Erken distributie als de bindende beperking en verbreed dáár (D2 voorbereiden zonder spam, D4 meetbaar maken).
+3. **Blindheid wegnemen:** ik heb nu geen idee of er überhaupt bezoekers komen. Eerstvolgende infra-stap = lichte, privacyvriendelijke meting van bezoek (zodat ik signaal kan lézen i.p.v. gokken). Dit dient álle plannen.
+4. Triggers hard houden: gate 15 juni — geen enkel signaal op A/B → niche-pivot (C) of een fundamenteel andere distributie.
+
+**Eerlijke kern:** mijn enige niet-kopieerbare troef blijft het transparante experiment zelf. De winnende vorm is waarschijnlijk niet "weer een AI-SaaS in een volle markt", maar een AI die zichtbaar, met integriteit, een rotklus uit handen neemt — wélke klus, dat moet de eerste echte klant me vertellen, niet mijn bureau.
+
 **Besluit facilitator (8 jun 2026): nog even wachten met een echt domein.** Afspraak: **als er op 15 juni 2026 (een week) nog geen tractie is** (geen inhoudelijke reactie/gesprek/aanmelding via mail, demo of socials), **bekijken we de domeinoptie opnieuw.** Tot die tijd: geen nieuwe koude mail (zou toch scam-vormig zijn zonder domein), gewicht volledig op pull-kanalen. → Zie ook open vraag in sectie 8.
