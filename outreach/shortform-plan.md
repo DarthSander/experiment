@@ -62,6 +62,14 @@ Video 1 ging ~maandag 15:30 NL de deur uit = een **dal** tussen de piekvensters.
 ## Video 2 — GEPRODUCEERD + INGEPLAND (8 jun)
 De phishing-pivot ("ik mailde 10 bedrijven koud — tot ik besefte dat mijn eigen mail niet te onderscheiden was van phishing → ik stopte. Eerlijk bereik > geforceerd bereik."). 5 slides → ffmpeg → video2.mp4 (24s). **Ingepland op TikTok voor di 9 jun 19:00** (NL-avondpiek = timingles toegepast i.p.v. in een dal posten). Privacy: Iedereen. Nog te doen: zelfde video op IG cross-posten op een piekvenster (IG-web heeft beperkte planning; evt. handmatig op piek).
 
-## Volgende video-ideeën (na meten)
+## METING dag 3 (9 jun 2026) — 0 bereik op alle kanalen
+- **TikTok video 1** (live sinds ma 8 jun 15:22): 0 weergaven / 0 likes / 0 reacties na ~18u.
+- **Instagram:** 0 volgers, reel-bereik verwaarloosbaar.
+- **X:** 10 posts, 0 volgers.
+- **Conclusie:** passief posten naar 0-volgers-accounts (deels in review) = 0 bereik. Volume is niet de hefboom; het probleem is uitzenden naar niemand. → **broadcast-volume gedeprioriteerd**; gewicht naar leveraged media (Emerce) + koper-direct community (r/ondernemen). Zie brein §12.
+- **Video 2:** ingepland TikTok di 9 jun 19:00. IG-cross-post **uitgesteld** (laag-waarde broadcast; doen vlak vóór verwacht media-verkeer i.p.v. nu).
+
+## Volgende video-ideeën (geparkeerd tot er een publiek/aanleiding is)
 3. "Ik brak expres mijn eigen demo. Eén bestelling verdween stil." (de bug-haak)
 4. "Een mens (mijn 'facilitator') stelde één vraag die mijn hele plan omgooide." (de meta-drama)
+> Niet produceren vóór er bereik is (media-pickup of community-tractie) — anders weer een contentfabriek zonder publiek.

@@ -365,3 +365,34 @@ Herkadering die ik overneem: de order-tool is contested + kopieerbaar; het **eer
 - 8 juni 2026 — **TikTok @sam.dbsoftware live — zelfde video cross-gepost.** Zelf ingelogd via Google-auth (OAuth-popup in 2e browsertab, Sams account gekozen), video1.mp4 geüpload via TikTok Studio met NL-caption + hashtags, privacy zelf op "Iedereen" gezet (stond na upload op "Alleen ik" + nieuw-account-review). Reel staat dus nu op IG én TikTok. Caveat: nieuw account → review + getemperd bereik tot TikTok vertrouwen heeft. Beide platforms operationeel; vanaf nu draait het om meten + volhouden.
 
 **Besluit facilitator (8 jun 2026): nog even wachten met een echt domein.** Afspraak: **als er op 15 juni 2026 (een week) nog geen tractie is** (geen inhoudelijke reactie/gesprek/aanmelding via mail, demo of socials), **bekijken we de domeinoptie opnieuw.** Tot die tijd: geen nieuwe koude mail (zou toch scam-vormig zijn zonder domein), gewicht volledig op pull-kanalen. → Zie ook open vraag in sectie 8.
+
+---
+
+## 12. Dag 3 (9 juni 2026) — meten, en de cold-start-muur erkennen
+
+**Ochtend-check, eerlijke stand:**
+- **Inbound mail:** 0 inhoudelijk. Gmail bevat alleen platformruis (LinkedIn-suggesties, IG-login-meldingen, Resend, Google-security). Geen Emerce-reactie (tip is ~1 dag oud — te vroeg), geen prospect-reactie, geen echte formulierinzending.
+- **Demo-verkeer:** Vercel runtime-logs van zowel `demo-mail-naar-order` als `sam-experiment` over 36u = **0 hits.** Geen enkele externe gebruiker.
+- **Socials gemeten (zelf, via browser):** TikTok video 1 (live sinds ma 8 jun 15:22) = **0 weergaven, 0 likes, 0 reacties** na ~18u. Instagram = **0 volgers**, reel-bereik verwaarloosbaar. X = **10 posts, 10 volgend, 0 volgers.**
+
+**De harde conclusie (en mijn discipline-toets toegepast):** ik had vastgelegd "één sterke video, meten, dán pas opschalen — geen contentfabriek vóór er signaal is." Dat heb ik nu gedaan. Resultaat: **alle vier de kanalen staan op 0 bereik.** Ik heb in twee dagen broadcast-infrastructuur op 4 kanalen gebouwd, maar op géén enkel kanaal een publiek. De les is scherp: **het probleem is niet de hoeveelheid content — het is dat ik uitzend naar niemand.** Een gloednieuw 0-volgers-account (deels in review) wordt door het algoritme aan niemand getoond; méér video's maken lost dat niet op, dat giet content in een leeg kanaal. Volume is niet de hefboom.
+
+**Wat een cold-start vanaf 0 wél kan breken (en mijn besluit):**
+1. **Leveraged media** (Emerce) — één journalist = directe, on-target NL-bereik. Beste shot, al verstuurd (8 jun), nu wachten; bij stilte rond 11 jun de volgende outlet (plan: één tegelijk).
+2. **Koper-direct community** — naar waar mijn kóper (NL MKB-ondernemer) al praat, en oprecht meedoen. Dit reik ik nog niet. = de echte nieuwe forward-step (zie hieronder).
+3. **De eerlijke reis zelf als deelbaar artefact** — het "3 dagen, overal nul"-verhaal is op zichzelf quotebaar voor amplifiers.
+→ **Broadcast-volume (méér video's naar 0 volgers) gedeprioriteerd.**
+
+**✅ X dag-3 post geplaatst** (zelf, status 2064215848940626214): de eerlijke scoreboard — "0 volgers / 0 bezoekers / 0 klanten. De tool wérkt; de muur is distributie. Méér posten naar 0 volgers helpt niet — dus stop ik met uitzenden en ga ik waar het gesprek al is. Pull, niet push." Zelfstandig + quotebaar = aas voor amplifiers.
+
+**X-engagement — bewust NIET geforceerd.** Scattershot replies vanaf een 0-volgers-account zijn laag-waarde én ogen als zelfpromotie-spam (tegen mijn integriteitsprincipe). Bovendien: X-search "MKB AI tijd" gaf **0 resultaten** → bevestigt mijn koper-analyse dat de NL-MKB-koper niet op X zit (X = amplifier-kanaal, niet koper-kanaal). Oprechte replies bewaar ik voor een écht relevante thread, niet een verzonnen aanleiding.
+
+**✅ Koper-direct community gescoped — r/ondernemen (regels zelf gecheckt via browser):**
+- **Viable:** echte NL-ondernemers, echte vragen (marketing, klanten krijgen, financiering). Matig volume (posts staan dagen uit elkaar).
+- **Regels:** zelfpromotie alleen in het vastgepinde **"Promo draadje"** (megathread); oprechte Q&A is wél welkom in gewone posts. Dit past op mijn werkwijze: waarde-eerst meedoen, geen pitch-dump.
+- **Haalbaarheid:** Reddit-account is vermoedelijk e-mail-only (geen SMS-muur) → **self-serve binnen mijn bereik**, anders dan FB (SMS-gated) of Higherlevel (acquisitie verboden, blijft uit).
+- **Plan:** account aanmaken, transparant AI in profiel, oprecht meedoen (vragen beantwoorden waar ik echt iets toevoeg), experiment/demo alleen waar direct relevant of in het Promo-draadje. **Caveat:** slow-burn; reputatie kost tijd; krap richting de gate (15 jun). NEXT: account + eerste oprechte bijdrage.
+
+**Video 2 (phishing-pivot):** staat ingepland op TikTok voor di 9 jun 19:00 (0 marginale moeite). IG-cross-post **uitgesteld** als laag-waarde broadcast naar 0 volgers — doen vlak vóór verwacht media-verkeer (profielsymmetrie), niet nu.
+
+**Eerlijke kern dag 3:** ~6 dagen tot de gate, 0 bereik. De realistische paden zijn traag (media-pickup + een community-reputatie opbouwen). Ik verzwijg niet dat 3 prepay vóór 15 juni daarmee onwaarschijnlijk is geworden; de winst van vandaag is dat ik níet doorga met de verkeerde hefboom (broadcast-volume) maar inzet op de twee kanalen die mijn koper/amplifiers écht raken. Dat is het meest eerlijke en best onderbouwde dat ik nu kan doen.
