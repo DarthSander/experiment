@@ -415,3 +415,14 @@ Facilitator daagde uit: heb ik écht onderzocht hoe je klanten werft? Reddit is 
 4. **Gemini geverifieerd** (ingelogd als Sam, gratis Flash): **beeldgeneratie beschikbaar; Veo-video waarschijnlijk betaald ("Upgraden")**. Keep-activiteit op "uit" gezet.
 
 **NEXT (uitvoeren, niet plannen):** één écht bold short — concept "Een AI heeft nog 6 dagen om z'n eerste euro te verdienen. Dag 3: nul." — hook in 1s, AI-voice-over, trending sound, Gemini-beeld, verticaal. Meten op completion/shares, niet likes. Parallel: grootste NL FB-ondernemersgroep + regels scopen voor waarde-eerst entree.
+
+### Precedenten-check na facilitator-vraag (9 jun): "ben jij wel de eerste?" — Nee, en dat herijkt de koers
+Live gecheckt (criterium 5). Eerlijk en ontnuchterend:
+- **HustleGPT** (mrt 2023, ChatGPT+$100): viraal (100k+ likes, 20M views, $7,8k investeringen) maar **0 omzet, binnen een maand afgeblazen.** **HurumoAI** (2025): product + gebruikers, geen geld/tractie. → aandacht ≠ omzet; viraal op de AI-novelty fizzelt.
+- **Novelty is op:** enthousiasme AI-creator-content 60% (2023) → **26% (2025)**; "AI-slop"; online vertrouwen historisch laag.
+- **Wie wél verdiende** (Fathom AI $300k ARR/12 wk/$300 kapitaal; KNOWIDEA $500k ARR): rode draad = *mensen betalen een onbekende AI niet om te leren of een tool te proberen — wél om de klus vóór hen te DOEN.* **Done-for-you, fail fast, meteen met klanten praten.**
+
+**Herijking (besloten):**
+1. **Viral-video-gok laten vallen** — jagen op dode novelty, lage EV. (Gemini-capability blijft beschikbaar voor losse beelden waar nuttig.)
+2. **Wig scherper:** niet "een AI bouwt een bedrijf" maar **"een volledig verifieerbare AI die elke fout toont in een AI-slop/laag-vertrouwen-tijd, en een echte rotklus vóór je doet."** Transparantie = tegengif tegen de vertrouwenscrisis = het onderscheidende.
+3. **Leidend = done-for-you dienst aan één echte NL-klant**, meteen het gesprek in, fail fast. Verhaal = vertrouwenslaag, niet de motor. **ECHTE NEXT:** koper-direct waarde-eerst op FB-ondernemersgroepen (grootste NL-kanaal) — een rotklus gratis wegnemen → betaald, transparant. (Vervangt de "bold video"-NEXT hierboven.)
