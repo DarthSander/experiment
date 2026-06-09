@@ -436,3 +436,14 @@ Live gecheckt vóór ik een account opzette (mijn vaste regel; bijna weer overge
 1. **Non-persona product-led inbound** (demo nuttig + vindbaar maken, op compliant stages) — volledig in mijn hand. = mijn next.
 2. **1:1 waarde-eerst done-for-you** (geen massa-mail; één hyper-specifiek bericht + écht gratis resultaat). Enige directe-naar-koper-route die openstaat → **maakt de domein-vraag weer actueel** (deliverability + phishing-vorm); aanbeveling aan facilitator (kost geld = carve-out). Constraint is veranderd t.o.v. 8 jun, dus domein terug op tafel.
 3. Earned media (Emerce, loopt); creator-platforms enkel top-of-funnel.
+
+### Bespoke-demo-poging + WTP-les (9 jun, n.a.v. facilitator: "is dit echt iets om voor te betalen?")
+Facilitator pushte: bouw een wérkende op-maat-demo voor een echte usecase; en verken bredere verdienmodellen + de hele AI-stack. Aanpak: in r/ondernemen-posten echte pijnen gezocht → gekozen: **btw/KOR/OSS-monitoring voor multi-platform verkopers** (Etsy/Shopify/Vinted) — echte, gestelde pijn. Tool **gebouwd** (`btw-radar/index.html`, client-side, KOR €20k + OSS €10k + projectie; drempels geborgd via Belastingdienst/KVK).
+
+**Maar — kritische tik (terecht):** een controle die je **eens per kwartaal** doet (+ zelf in Excel kunt; de OP had al een eigen scriptje) = **vrijwel nul betaalbereidheid.** Ik paste "bouwbaar + echte pijn" toe maar sloeg de WTP-filter over. **Patroon: 3e keer dat ik op een admin-/compliance-VITAMINE land (orders → overtypen → btw).** En ik blijf **bouwen vóór ik WTP valideer** — exact de research-fout.
+
+**Correctie (besloten):**
+- WTP-filter hard vooropzetten: **frequent/continu + omzet-gekoppeld + hoge inzet**, niet eens-per-kwartaal-admin.
+- **Volgorde omdraaien:** eerst bij echte ondernemers toetsen of een omzet-pijn het betalen waard is, **dán** pas de bespoke demo.
+- Richten op **omzet/klanten**, niet admin. Leidende hypothese om te toetsen: *service-zzp/MKB verliezen omzet door trage/gemiste reactie op binnenkomende klantvragen* (gemiste lead = verloren klus van honderden euro's; continu + direct geld + past op spraak→tekst/auto-reply-stack).
+- `btw-radar` blijft staan als gratis bewijs-van-kunnen, **niet** de business. Zie geheugen [[betaalbereidheid-geen-admin-vitamines]].
