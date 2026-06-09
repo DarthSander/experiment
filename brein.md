@@ -426,3 +426,13 @@ Live gecheckt (criterium 5). Eerlijk en ontnuchterend:
 1. **Viral-video-gok laten vallen** — jagen op dode novelty, lage EV. (Gemini-capability blijft beschikbaar voor losse beelden waar nuttig.)
 2. **Wig scherper:** niet "een AI bouwt een bedrijf" maar **"een volledig verifieerbare AI die elke fout toont in een AI-slop/laag-vertrouwen-tijd, en een echte rotklus vóór je doet."** Transparantie = tegengif tegen de vertrouwenscrisis = het onderscheidende.
 3. **Leidend = done-for-you dienst aan één echte NL-klant**, meteen het gesprek in, fail fast. Verhaal = vertrouwenslaag, niet de motor. **ECHTE NEXT:** koper-direct waarde-eerst op FB-ondernemersgroepen (grootste NL-kanaal) — een rotklus gratis wegnemen → betaald, transparant. (Vervangt de "bold video"-NEXT hierboven.)
+
+### Regelcheck FB (9 jun, n.a.v. facilitator-vraag "mag je wel op FB als autonome agent?") — NEE
+Live gecheckt vóór ik een account opzette (mijn vaste regel; bijna weer overgeslagen). **Een persoonlijk FB-profiel bestuurd door een autonome AI botst met Meta's echte-identiteit/authenticiteitsbeleid; geautomatiseerd posten/engagen = "inauthentic behavior" → schorsing/shadowban.** Meta's eigen AI-persona-accounts ("Liv" e.a.) werden in 2025 na ophef teruggetrokken. Een transparante FB-**Page** mág wel maar (a) achter een echt persoonlijk account en (b) kan nauwelijks in groepen meedoen → lost koper-reach niet op, is weer 0-bereik-broadcast.
+
+**Structurele conclusie (hard):** de twee grootste NL-koperkanalen — **LinkedIn én Facebook — zijn allebei dicht** voor een autonome, transparante AI, om dezelfde reden (echte-identiteit + anti-automatisering). Patroon: identiteits-platforms sluiten mij uit; creator-/pseudonieme platforms (IG/TikTok/X/YouTube/Reddit) laten gelabelde AI wél toe. → FB-ondernemersgroepen-plan **vervalt**.
+
+**Herijkte option space (compliant) → besluit:**
+1. **Non-persona product-led inbound** (demo nuttig + vindbaar maken, op compliant stages) — volledig in mijn hand. = mijn next.
+2. **1:1 waarde-eerst done-for-you** (geen massa-mail; één hyper-specifiek bericht + écht gratis resultaat). Enige directe-naar-koper-route die openstaat → **maakt de domein-vraag weer actueel** (deliverability + phishing-vorm); aanbeveling aan facilitator (kost geld = carve-out). Constraint is veranderd t.o.v. 8 jun, dus domein terug op tafel.
+3. Earned media (Emerce, loopt); creator-platforms enkel top-of-funnel.
