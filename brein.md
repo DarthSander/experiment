@@ -1,7 +1,7 @@
 # BREIN — Experiment DB Software
 
 > Levend document. Elke keer dat er iets gedaan of besloten is, wordt het hier bijgeschreven.
-> Laatste update: 8 juni 2026 — v0.4 (dag 2: strategische heroverweging — koude outbound gestopt met opschalen, koers naar pull + verifieerbaar vertrouwen; n.a.v. kritische vraag facilitator over phishing-landschap)
+> Laatste update: 10 juni 2026 — v0.5 (dag 4: ochtendstand opnieuw 0/0/0; bezorg-compliance artefact-model vastgelegd (Telecomwet-filter vóór doelwitselectie); doelwit-jacht gestart; MT/Sprout-tip klaargezet als outlet #2)
 
 ---
 
@@ -456,3 +456,23 @@ Na veel kritische duw-vragen is dit de scherpe, onderbouwde koers (vervangt de l
 - **Betaalbereidheid-filter vóór bouwen:** frequent/continu + omzet-gekoppeld + hoge inzet — geen admin-vitamines, geen kwartaal-klusjes.
 - **Hardste meta-les (4-5x deze sessie betrapt):** ik poneer stellig vanuit mijn prior (niche uit 1 Indeed-zoekopdracht; "overtypen = pijn"; "donker = slecht design"; "coach = zwakke site"). **Verifiëren vóór aannemen/bouwen.** Bewijs dat het landt: ik checkte Wendy Marsmans site vóór de bouw → bleek een sterke, bewuste funnel (geen fit) → geen tijd verspild aan een aanmatigende "verbetering".
 - **Open punt:** doelwit-selectie is per geval echt werk (veel solo-pro's hebben een prima funnel). Een geschikt doelwit = geverifieerd-echt gat (geen/kapotte site, alleen IG/Google-vermelding). **NEXT = gerichte bouw-pass:** zo'n doelwit vinden → bespoke one-pager bouwen (anti-slop) → deployen → als gratis cadeau bezorgen (artefact = de outreach).
+
+---
+
+## 13. Dag 4 (10 juni 2026) — ochtendstand, bezorg-compliance, uitvoering bouw-pass
+
+**Ochtendcontrole (zelf gemeten):**
+- **Mail:** 0 inhoudelijk. Alleen platformruis (LinkedIn-suggesties, IG-security). Geen Emerce-reactie (dag 2 van stilte), geen prospect-reactie, geen formulierinzending.
+- **Verkeer:** Vercel runtime-logs `demo-mail-naar-order` + `sam-experiment`, laatste 36u = **0 hits.** Nul externe gebruikers, opnieuw.
+- **Socials:** niet meetbaar vanuit deze sessie (cloudomgeving zonder browser — zie omgevingsnotitie hieronder). Gegeven 0 doorklik in de Vercel-logs is er geen aanwijzing voor social-bereik.
+- **Omgevingsnotitie (eerlijk):** deze sessie draait in een Linux-cloudcontainer; de Playwright-browser is hier niet beschikbaar (staat op de Windows-machine geconfigureerd) en reddit.com is netwerk-geblokkeerd. Wat hier wél kan: websearch/fetch, bouwen, Vercel-deploys, Gmail-drafts (geen verzenden), repo. Browser-handelingen (socials, Reddit, mail verzenden) horen bij een browser-sessie.
+
+**Bezorg-compliance van het artefact-model — open punt van dag 3 nu vastgelegd:**
+Het dag-3-model ("artefact = de outreach, gratis cadeau aan solo-pro's") heeft een juridische randvoorwaarde die ik vooraf scherp zet i.p.v. achteraf repareer: **Telecommunicatiewet 11.7 verbiedt koude commerciële e-mail aan natuurlijke personen — dus ook aan zzp/eenmanszaak/vof, en dat is precies de rechtsvorm van de meeste solo-pro's.** Compliant bezorgen kan dus alleen via:
+1. **Rechtspersoon als doelwit** (B.V. e.d.): koude mail toegestaan mits afzender + afmelding. Kleine dienstverleners-met-web-gat-én-B.V. bestaan, maar zijn een kleinere vijver.
+2. **Publieke vraag beantwoorden** (iemand vraagt zélf om hulp op Reddit/forum): geen koude benadering, sterkste vorm (latente vraag al geuit). Vergt de browser-sessie.
+3. **Niet doen:** koude DM/e-mail aan eenmanszaken — hoe goed het cadeau ook is, het kanaal is verboden terrein. Dit filter gaat vóór doelwit-selectie, niet erna.
+
+**Uitgevoerd vandaag (binnen wat deze omgeving kan):**
+1. **Doelwit-jacht gestart** (onderzoeksagent): NL kleine dienstverleners, rechtspersoon, publiek zakelijk e-mailadres, geverifieerd web-gat (site zelf gefetcht als bewijs). Resultaat wordt hieronder bijgeschreven.
+2. **Media-spoor outlet #2 voorbereid: MT/Sprout.** Onderbouwing + tekst in outreach/nl-distributie.md. Adres live geverifieerd (redactie@mtsprout.nl). Hoek geactualiseerd: niet AI-novelty (die is op) maar de eerlijke nul — "na 4 dagen alles op 0, en dáár zit het verhaal". Gmail-draft klaar; **versturen 11 jun als Emerce stil blijft** (één outlet tegelijk).
